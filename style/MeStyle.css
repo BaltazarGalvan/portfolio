@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  background-color: #e4f9f5;
+  color: #40514e;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #eaf6f6;
+  width: 70px;
+  border-width: 8px;
+  margin: 70px auto;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+}
+
+.top-container > * {
+  display: block;
+  margin: 0 auto;
+}
+
+.top-container h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: #66bfbf;
+  font-family: "Sacramento";
+  font-size: 5.5rem;
+}
+
+.bottom-cloud {
+  margin: 20px auto 0 100px;
+}
+
+.top-cloud {
+  margin: 0 200px 0 auto;
+  padding-top: 20px;
+}
+
+.skills-container {
+  background-color: white;
+}
+
+.if-you-love {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.we-can-share {
+  width: 40%;
+  margin: 20px auto;
+  padding-bottom: 45px;
+  line-height: 3rem;
+}
+
+.contact-me {
+  padding-bottom: 70px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px 0;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding-top: 20px;
+}
+
+.left-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.right-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-img {
+  width: 300px;
+}
+
+.skill-row {
+  padding-bottom: 120px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.profile-img {
+  padding-top: 30px;
+  width: 30%;
+}
+
+.profile-intro {
+  line-height: 1.6;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+}
+
+.profile ul {
+  line-height: 1.5;
+  margin-left: 23%;
+  font-size: 1.4rem;
+  text-align: left;
+  width: 50%;
+  list-style-type: circle;
+}

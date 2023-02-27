@@ -1,0 +1,12 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Develop portafolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baltazar Galvan Villalobos",
+  "license": "ISC"
+}
