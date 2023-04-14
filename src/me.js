@@ -4,7 +4,7 @@ const me = `
         <img
           loading="lazy"
           class="top-cloud"
-          src="images/cloud.png"
+          src="./images/cloud.png"
           alt="nube"
         />
         <h1>...a brief of me...</h1>
@@ -12,13 +12,13 @@ const me = `
         <img
           loading="lazy"
           class="bottom-cloud"
-          src="images/cloud.png"
+          src="./images/cloud.png"
           alt="nube"
         />
         <img
           loading="lazy"
           class="mountain"
-          src="images/mountain.png"
+          src="./images/mountain.png"
           alt="montaña"
         />
       </div>
@@ -27,7 +27,7 @@ const me = `
           <h2>Hi!</h2>
           <img
             loading="lazy"
-            src="images/ingeniero-avatar.png"
+            src="./images/ingeniero-avatar.png"
             alt="Baltazar Galvan image"
             class="profile-img"
           />
@@ -77,7 +77,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img right-img"
-              src="images/problem-solver.png"
+              src="./images/problem-solver.png"
               alt="problem-solver img"
             />
             <h3>Problem Solver</h3>
@@ -87,7 +87,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img left-img"
-              src="images/user-oriented.png"
+              src="./images/user-oriented.png"
               alt="user-oriented img"
             />
             <h3>User Oriented</h3>
@@ -100,7 +100,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img right-img"
-              src="images/Learning.jpeg"
+              src="./images/Learning.jpeg"
               alt="user-oriented img"
             />
             <h3>Continuous learning</h3>
@@ -113,7 +113,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img left-img"
-              src="images/Team Work.jpeg"
+              src="./images/Team Work.jpeg"
               alt="user-oriented img"
             />
             <h3>Team Work</h3>
@@ -127,7 +127,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img right-img"
-              src="images/handy.png"
+              src="./images/handy.png"
               alt="Handyman img"
             />
             <h3>Handy 🛠</h3>
@@ -140,7 +140,7 @@ const me = `
             <img
               loading="lazy"
               class="skill-img left-img"
-              src="images/thinker.png"
+              src="./images/thinker.png"
               alt="thinker-img"
             />
             <h3>Analitical & Abstract thinking</h3>
