@@ -1,22 +1,3 @@
-body {
-  margin: 0;
-  background-color: #e4f9f5;
-  color: #40514e;
-  font-family: "Merriweather", serif;
-  text-align: center;
-}
-
-a {
-  color: #11999e;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  font-size: 1.6rem;
-}
-
-a:hover {
-  color: #eaf6f6;
-}
-
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
@@ -42,10 +23,6 @@ p {
   font-size: 1.5rem;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .container {
   margin: 0;
   padding: 0;
@@ -69,12 +46,18 @@ ul {
 }
 
 .bottom-cloud {
-  margin: 20px auto 0 100px;
+  width: 20%;
+  margin: 20px auto 0 10%;
 }
 
 .top-cloud {
-  margin: 0 200px 0 auto;
+  width: 20%;
+  margin: 20px 10% 0 auto;
   padding-top: 20px;
+}
+
+.mountain {
+  width: 70%;
 }
 
 .skills-container {
@@ -128,7 +111,7 @@ ul {
 
 .skill-row {
   padding-bottom: 120px;
-  width: 60%;
+  width: 90%;
   margin: auto;
   text-align: left;
 }
@@ -141,15 +124,61 @@ ul {
 .profile-intro {
   line-height: 1.6;
   text-align: justify;
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 
 .profile ul {
   line-height: 1.5;
-  margin-left: 23%;
+  margin-left: 8%;
   font-size: 1.4rem;
   text-align: left;
-  width: 50%;
+  width: 80%;
   list-style-type: circle;
+}
+
+.content-me {
+  background-color: #e4f9f5;
+  color: #40514e;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  animation: meAnim 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes meAnim {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  50%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+
+  55% {
+    transform: rotate(1deg);
+  }
+
+  55%,
+  70%,
+  80% {
+    transform: rotate(-2deg);
+  }
+
+  65%,
+  75%,
+  85% {
+    transform: rotate(2deg);
+  }
+
+  90% {
+    transform: rotate(-1deg);
+  }
+
+  95% {
+    transform: rotate(1deg);
+  }
 }
