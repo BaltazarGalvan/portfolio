@@ -27,7 +27,7 @@ const me = `
           <h2>Hi!</h2>
           <img
             loading="lazy"
-            src="./images/ingeniero-avatar.png"
+            src="./images/Ingeniero-avatar.png"
             alt="Baltazar Galvan image"
             class="profile-img"
           />
